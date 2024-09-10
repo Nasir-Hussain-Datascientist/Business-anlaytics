@@ -1,0 +1,71 @@
+Great set of KPIs! Here's how to calculate and plot each one in Power BI:
+
+1. Absence Rate (%) by Department
+Calculation:
+
+Formula: (Total Days Lost to Sickness / (Total Employees × Working Days in the Period)) × 100
+Steps:
+Create a measure for total days lost to sickness.
+Create a measure for total working days (e.g., Total Employees × Working Days in the Period).
+Create a KPI measure for Absence Rate using the formula above.
+Plotting:
+
+Use a Bar Chart or Column Chart to show Absence Rate by Department.
+Configure the X-axis with Department Name and Y-axis with the Absence Rate KPI.
+2. Cost of Absenteeism
+Calculation:
+
+Formula: Sum(Salary Cost of Days Lost Due to Sickness)
+Steps:
+Create a measure for the salary cost associated with sickness absence.
+Sum this measure across departments or periods.
+Plotting:
+
+Use a Bar Chart or Column Chart to visualize the cost of absenteeism by Department or Month.
+Alternatively, use a Pie Chart to show the distribution of costs by department.
+3. Full-Time Equivalent (FTE) Impact of Absences
+Calculation:
+
+Formula: Total Absence Days / Average Working Days per Employee
+Steps:
+Create a measure for total absence days.
+Determine the average number of working days for full-time employees.
+Calculate the FTE impact using the formula above.
+Plotting:
+
+Use a Bar Chart to display FTE Impact by Department or Month.
+Configure the X-axis with Department Name or Month and Y-axis with the FTE Impact measure.
+4. Absence Trends by Month and Season
+Calculation:
+
+Formula: Aggregate monthly or seasonal absence data.
+Steps:
+Create a measure for total absence days by month or season.
+Aggregate the data by month or season.
+Plotting:
+
+Use a Line Chart or Area Chart to show trends over time.
+Configure the X-axis with Date/Month/Season and Y-axis with Total Absence Days.
+5. Sickness Absence Resolution Time
+Calculation:
+
+Formula: Average(Time from Submission to Resolution)
+Steps:
+Create a measure for the time taken to resolve each absence request.
+Calculate the average resolution time.
+Plotting:
+
+Use a Line Chart or Bar Chart to display the average resolution time.
+Configure the X-axis with Date or Department and Y-axis with the Average Resolution Time measure.
+Implementing in Power BI
+Add New Measures: Use DAX formulas to create measures for each KPI.
+Create Visuals: Use the corresponding charts or graphs for each KPI. Drag and drop the relevant measures into the values area and configure the axes and filters as needed.
+Add Slicers: To allow users to filter data by department, month, or other relevant criteria.
+Let me know if you need any help with the DAX formulas or setting up the visuals!
+
+
+
+
+
+
+Adoption Leave , Bereavement Leave,Carers Leave,Leave,Maternity Leave,Paternity Leave,Special Leave,Sickness Absence
